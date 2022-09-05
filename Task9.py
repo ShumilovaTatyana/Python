@@ -9,5 +9,5 @@ elif num == 2:
     print('x < 0, y > 0') 
 elif num == 3:
     print('x < 0, y < 0') 
-elif num == 4:
+elif num == 4: # else
     print('x > 0, y < 0')          

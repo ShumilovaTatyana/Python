@@ -13,3 +13,18 @@ x_B = float(input('X: '))
 y_B = float(input('Y: '))
 from math import sqrt
 print('Расстояние между точками A и B: ',round(sqrt((x_A - x_B)*(x_A - x_B) + (y_A - y_B)*(y_A - y_B)), 2))
+
+# x1 = int(input("Введите координату x1 : "))
+# y1 = int(input("Введите координату y1 : "))
+# x2 = int(input("Введите координату x2 : "))
+# y2 = int(input("Введите координату y2 : "))
+
+# d = ((x2 - x1)**2 + (y2 - y1)**2)**(0.5)
+# print(f"Расстояние равно {d} ")
+
+
+# a = [int(i) for i in input('введите координаты первой точки пример "12,6" a=').split(',')]
+# b = [int(i) for i in input('введите координаты первой точки пример "7,2" b=').split(',')]
+# len_line = ((a[0]-b[0])**2+(a[1]-b[1])**2)**(0.5)
+
+
