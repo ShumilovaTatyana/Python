@@ -5,10 +5,10 @@
 # - Для n = 6: {1: 4, 2: 7, 3: 10, 4: 13, 5: 16, 6: 19}
 # (1+1/n)**n
 
-num = int(input("Введите число N:"))
-def posledovat(num):
-    return[round((1 + 1 / n)**n, 2) for n in range(1, num + 1)]
-print(posledovat(num))
+num = int(input("Введите число N для последовательности $(1+1/n)^n$: "))
+res_list = list((1+1/i)**i for i in range(1, num + 1))
+print(f'sum for 3 = {round(sum(res_list), 3)}')
+
 
 
 
