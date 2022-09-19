@@ -6,13 +6,18 @@
 # a) Добавьте игру против бота
 # b) Подумайте как наделить бота ""интеллектом""
 
+igrok1 = input("Игрок 1, введите ваше имя: ")
+igrok2 = input("Игрок 2, введите ваше имя: ")
 while True:
-    number = int(input('Введите число: '))
+    number = int(input('Игрок, введите количество конфет, которое возьмете: '))
     if number > 1 and number < 28:
-        print(f'На столе - {2021 - number}')
+        print(f'На столе - {2021 - number} конфет')
         break
     else:
         print('Число должно быть больше 1, но меньше 28: ')
+
+
+
 
 # from random import randint
 
